@@ -1,0 +1,99 @@
+/* Flex container */
+.flex {
+  display: flex;
+}
+
+/* Flex container with column direction */
+.flex-column {
+  flex-direction: column;
+}
+
+/* Align items center */
+.flex-item-center {
+  align-items: center;
+}
+
+/* Justify content center */
+.flex-justify-center {
+  justify-content: center;
+}
+
+/* Justify content space between */
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+/* Flex wrap */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* Align items flex-start */
+.flex-item-start {
+  align-items: flex-start;
+}
+
+/* Align items flex-end */
+.flex-item-end {
+  align-items: flex-end;
+}
+
+/* Align items baseline */
+.flex-item-baseline {
+  align-items: baseline;
+}
+
+/* Align items stretch */
+.flex-item-stretch {
+  align-items: stretch;
+}
+
+/* Justify content flex-start */
+.flex-justify-start {
+  justify-content: flex-start;
+}
+
+/* Justify content flex-end */
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+/* Justify content space-around */
+.flex-justify-space-around {
+  justify-content: space-around;
+}
+
+/* Justify content space-evenly */
+.flex-justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+/* Align content flex-start */
+.flex-align-start {
+  align-content: flex-start;
+}
+
+/* Align content flex-end */
+.flex-align-end {
+  align-content: flex-end;
+}
+
+/* Align content center */
+.flex-align-center {
+  align-content: center;
+}
+
+/* Align content space-between */
+.flex-align-space-between {
+  align-content: space-between;
+}
+
+/* Align content space-around */
+.flex-align-space-around {
+  align-content: space-around;
+}
+
+/* Align content stretch */
+.flex-align-stretch {
+  align-content: stretch;
+}

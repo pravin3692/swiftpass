@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Swiftpass - Blazing fast design, strategy, and engineering for the new internet"
+    />
+    <meta
+      name="keywords"
+      content="Swiftpass, design, strategy, engineering, web development, mobile development"
+    />
+    <meta name="author" content="Swiftpass" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Swiftpass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://www.example.com" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/flex-helpers.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="flex flex-column">
+    <header>
+      <nav id="nav">
+        <div class="container">
+          <div
+            class="nav-wrapper flex flex-justify-space-between flex-item-center"
+          >
+            <div class="nav-logo">
+              <img src="./images/logo.svg" alt="logo" />
+            </div>
+            <div class="nav-menu hide-mobile">
+              <ul
+                class="link-list flex flex-item-center flex-justify-center"
+                role="menu"
+              >
+                <li role="none">
+                  <a
+                    data-replace="About Us"
+                    href="javascript:void(0)"
+                    onclick="handleScroll('about-us')"
+                    aria-label="About Us"
+                    ><span>About Us</span></a
+                  >
+                </li>
+                <li role="none">
+                  <a
+                    data-replace="Contact Us"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfecTVzjTegOpdUnBxGC-baTxAne9ZtZCTDiaw6IOg0G-tUHQ/viewform?usp=sf_link"
+                    target="_blank"
+                    aria-label="Contact Us"
+                    ><span>Contact Us</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="nav-cta hide-mobile">
+              <a
+                class="button button-black"
+                data-replace="Join Waitlist"
+                id="requestModalBtn"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfecTVzjTegOpdUnBxGC-baTxAne9ZtZCTDiaw6IOg0G-tUHQ/viewform?usp=sf_link"
+                target="_blank"
+              >
+                <span> Join Waitlist </span>
+              </a>
+            </div>
+
+            <div class="nav-but-wrap">
+              <div class="menu-icon">
+                <img src="./images/menu-icon.svg" alt="Menu Icon" />
+              </div>
+            </div>
+
+            <div class="nav">
+              <div class="nav__content">
+                <ul class="nav__list">
+                  <li class="nav__list-item" style="--delay: 0s">
+                    <a
+                      data-replace="About Us"
+                      href="javascript:void(0)"
+                      onclick="handleScroll('about-us')"
+                      aria-label="About Us"
+                      ><span>About Us</span></a
+                    >
+                  </li>
+                  <li class="nav__list-item" style="--delay: 0.1s">
+                    <a
+                      data-replace="Contact Us"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfecTVzjTegOpdUnBxGC-baTxAne9ZtZCTDiaw6IOg0G-tUHQ/viewform?usp=sf_link"
+                      target="_blank"
+                      aria-label="Contact Us"
+                      ><span>Contact Us</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section banner">
+        <div class="container">
+          <div class="banner-wrapper">
+            <h1 class="hide-desktop">One Card for All Travel!</h1>
+            <a
+              class="button button-black"
+              data-replace="Join Waitlist"
+              id="requestModalBtn"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfecTVzjTegOpdUnBxGC-baTxAne9ZtZCTDiaw6IOg0G-tUHQ/viewform?usp=sf_link"
+              target="_blank"
+            >
+              <span> Join Waitlist </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section hide-desktop">
+        <div class="container">
+          <div class="mobile-card">
+            <img src="./images/mobile-card.svg" alt="mobile-card" />
+          </div>
+          <div class="services">
+            <h3>Not Just Metro : Travel, Shop, and Earn Anywhere</h3>
+            <div class="service-wrapper">
+              <div class="service-card">
+                <img src="./images/metro-service.svg" alt="metro" />
+                <h4>Metro</h4>
+              </div>
+              <div class="service-card">
+                <img src="./images/bus-service.svg" alt="Bus" />
+                <h4>Bus</h4>
+              </div>
+              <div class="service-card">
+                <img src="./images/parking-service.svg" alt="Parking" />
+                <h4>Parking</h4>
+              </div>
+              <div class="service-card">
+                <img src="./images/ecom-service.svg" alt="E-commerce" />
+                <h4>E-commerce</h4>
+              </div>
+              <div class="service-card">
+                <img src="./images/fuel-service.svg" alt="Fuel" />
+                <h4>Fuel</h4>
+              </div>
+              <div class="service-card">
+                <img src="./images/retail-service.svg" alt="Retailers" />
+                <h4>Retailers</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="flex block-box">
+            <div class="block-box-left">
+              <div class="box-content">
+                <h3>All commutes at one place</h3>
+                <p>
+                  Manage balances, rewards and much more in <br />
+                  one go!
+                </p>
+                <a
+                  class="button button-white"
+                  data-replace="Join Waitlist"
+                  id="requestModalBtn"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfecTVzjTegOpdUnBxGC-baTxAne9ZtZCTDiaw6IOg0G-tUHQ/viewform?usp=sf_link"
+                  target="_blank"
+                >
+                  <span> Join Waitlist </span>
+                </a>
+              </div>
+            </div>
+            <div class="block-box-right">
+              <img
+                src="./images/mobile-grp.png"
+                alt="mobile-grp"
+                class="hide-mobile"
+              />
+              <img
+                src="./images/commute-one-place.png"
+                alt="mobile-grp"
+                class="hide-desktop"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="card-wrapper flex">
+            <div class="content-card">
+              <div class="content">
+                <h3>Get a card that matches your vibe</h3>
+                <p>
+                  Multiple options to suite your style. New styles are added<br />
+                  regularly. Custom cards coming soon!
+                </p>
+              </div>
+              <div class="card-image">
+                <div class="man-image hide-mobile" style="opacity: 0">
+                  <img src="./images/card-top-man.png" alt="Man" />
+                </div>
+                <img
+                  src="./images/card-1.png"
+                  alt="card-1"
+                  class="hide-mobile"
+                />
+                <img
+                  src="./images/get-a-card.png"
+                  alt="card-1"
+                  class="hide-desktop"
+                />
+              </div>
+            </div>
+            <div class="content-card">
+              <img
+                src="./images/coming-soon.svg"
+                alt="coming-soon"
+                class="hide-desktop"
+                style="margin-bottom: 30px"
+              />
+
+              <div class="content">
+                <h3>Earn real money by inviting friends</h3>
+                <p>
+                  A referral program you’ve never heard of is in <br />
+                  the works
+                </p>
+              </div>
+              <div class="card-image">
+                <div class="man-image hide-mobile">
+                  <img src="./images/card-top-man.png" alt="Man" />
+                </div>
+                <div class="flex flex-item-end image-group">
+                  <div class="image-wrapper">
+                    <img src="./images/green-card-1.png" alt="card-1" />
+                  </div>
+                  <div class="image-wrapper">
+                    <img src="./images/green-card-2.png" alt="card-1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MEET THE TEAM -->
+      <section class="section meet-team" id="about-us">
+        <div class="container">
+          <div class="top-content text-center flex flex-column">
+            <h3>Meet the team</h3>
+            <p>
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit
+            </p>
+          </div>
+          <div class="card-list flex">
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/user-1.png" alt="team-1" />
+              </div>
+              <div class="card-content flex flex-item-center">
+                <span>Ajay Shekhawat</span>
+                <span class="social-link">
+                  <a
+                    href="https://www.linkedin.com/in/ajayshekhawat7"
+                    target="_blank"
+                  >
+                    <img src="./images/linkedin.svg" alt="linkedin"
+                  /></a>
+                </span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./images/user-2.png" alt="team-2" />
+              </div>
+              <div class="card-content flex flex-item-center">
+                <span>Mayank Singh</span>
+                <span class="social-link">
+                  <a
+                    href="https://www.linkedin.com/in/msingh2607"
+                    target="_blank"
+                  >
+                    <img src="./images/linkedin.svg" alt="linkedin"
+                  /></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="flex footer-wrapper">
+            <div class="footer-top-left">
+              <div class="footer-logo">
+                <img src="./images/footer-logo.svg" alt="logo" />
+              </div>
+              <p>Swiftpass Technologies Private Limited</p>
+            </div>
+            <div class="footer-top-right flex flex-column">
+              <div class="footer-links flex">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">About Us</a>
+                <a href="#">Refund Policy</a>
+              </div>
+              <p>hello@swiftpass.in | +91 89891-00991</p>
+              <p>Linkedin / Instagram / Whatsapp</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="copyright">
+            <p>2024 SwiftPass.in All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-btn hide-desktop text-center">
+      <a
+        class="button button-black"
+        data-replace="Get in touch"
+        id="requestModalBtn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfecTVzjTegOpdUnBxGC-baTxAne9ZtZCTDiaw6IOg0G-tUHQ/viewform?usp=sf_link"
+        target="_blank"
+      >
+        <span>Get in touch</span>
+      </a>
+    </div>
+    <div id="requestModal" class="modal">
+      <div class="modal-content flex flex-column">
+        <div class="modal-header flex flex-align-space-between">
+          <h3>
+            Leave your details and we’ll reach out to you as soon as we can
+          </h3>
+          <button data-replace="Back" class="button button-pink close">
+            <span>Back</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-container">
+            <form class="inquiry-form flex flex-column" action="">
+              <div class="form-group">
+                <input type="text" id="name" name="name" required />
+                <label for="name">Full Name</label>
+              </div>
+              <div class="form-group">
+                <input type="text" id="email" name="email" required />
+                <label for="email">Email</label>
+              </div>
+              <div class="form-group text-area">
+                <textarea
+                  name="description"
+                  id="description"
+                  required
+                ></textarea>
+                <label for="email">Project Description</label>
+              </div>
+            </form>
+            <div class="form-submit">
+              <div class="text-center">
+                <img src="./images/success.svg" alt="success" />
+                <h3>
+                  Request received. This can be the start of something very
+                  great!
+                </h3>
+                <p>We are as excited as you are!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer text-center">
+          <div class="modal-container">
+            <button
+              onclick="handleMailSend()"
+              data-replace="Submit Inquiry"
+              class="button button-black"
+              id="submit-inquiry-btn"
+              type="submit"
+            >
+              <span>Submit Inquiry</span>
+            </button>
+
+            <button
+              data-replace="Back to Home"
+              class="button button-black"
+              id="success-modal-btn"
+              onclick="handleResetForm()"
+            >
+              <span>Back to Home</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./js/emailjs.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
